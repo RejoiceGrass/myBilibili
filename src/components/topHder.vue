@@ -81,7 +81,14 @@ export default {
           title:"赛事"
         }
       ],
-      focus:''
+      focus:'',
+      history: {
+        field: [],
+        record: [],
+      },
+      historyFlag: false,
+      historyRecord: [],
+      historyField: [],
     }
   },
   methods:{
